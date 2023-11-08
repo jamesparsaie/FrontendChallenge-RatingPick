@@ -1,0 +1,33 @@
+body {
+    background-color: #141519;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.main-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    width: 22%;
+    min-height: fit-content;
+    background-image: linear-gradient(#222933, #1e252f, #19202a);
+}
+
+.inner-content {
+    margin-top: 10%;
+}
+
+.score-background {
+    background-color: #262f38;
+    border-radius: 25px;
+}
+
+#thanks-image {
+
+}

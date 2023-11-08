@@ -1,3 +1,5 @@
+window.onload = getRating;
+
 function handleButton(id) {
     let buttonClick = document.getElementById(`button-${id}`);
     buttonClick.style.backgroundColor = "#fb7714";
@@ -10,4 +12,11 @@ function handleButton(id) {
             button.style.color = "#88909c"
         }
     }
+
+    sessionStorage.setItem("score", id);
+}
+
+function getRating() {
+    let score = sessionStorage.getItem("score");
+    document.getElementById("scoreValue").textContent = score;
 }

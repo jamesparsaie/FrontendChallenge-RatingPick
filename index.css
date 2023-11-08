@@ -67,3 +67,19 @@ h1 {
     color: #fff0c2;
     margin-top: 10%;
 }
+
+@media(max-width: 768px) {
+    .main-div {
+        width: fit-content;
+        height: 35%;
+    }
+
+    .circle-button {
+        height: 8vw;
+        width: 8vw;
+    }
+
+    #submit {
+        
+    }
+}
